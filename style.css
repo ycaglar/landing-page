@@ -1,0 +1,94 @@
+/* CSS Reset: Start */
+body {
+  font-family: 'Roboto';
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* * {
+  border: 0.5px solid darkgrey;
+  padding: 1px;
+} */
+
+/* CSS Reset: End */
+
+/* Header: Start */
+header {
+  background-color: #1F2937;
+  padding: 15px 180px;
+}
+
+/* Navigation: Start */
+nav {
+  display: flex;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.home {
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+.highlights,
+.testimonials,
+.call-to-action {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+/* Navigation: End */
+
+/* Hero: Start */
+.hero {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 50px;
+  margin: 120px 0;
+}
+
+.hero .info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hero .info .headline {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #F9FAF8;
+  margin: 0;
+}
+
+.hero .info .description {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero .info button {
+  background-color: #3882F6;
+  width: 120px;
+  height: 35px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  color: #F9FAF8;
+  border-radius: 7px;
+  border: none;
+}
+
+.hero img {
+  flex: 1;
+  align-self: stretch;
+}
+
+/* Hero: End */
+
+/* Header: End */
