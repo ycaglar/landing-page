@@ -18,7 +18,7 @@ a {
 /* Header: Start */
 header {
   background-color: #1F2937;
-  padding: 15px 180px;
+  padding: 15px 190px;
 }
 
 /* Navigation: Start */
@@ -53,26 +53,26 @@ nav {
   margin: 120px 0;
 }
 
-.hero .info {
+.hero .introduction {
   display: flex;
   flex: 1;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-.hero .info .headline {
+.hero .introduction .headline {
   font-size: 48px;
   font-weight: bolder;
   color: #F9FAF8;
   margin: 0;
 }
 
-.hero .info .description {
+.hero .introduction .description {
   font-size: 18px;
   color: #E5E7EB;
 }
 
-.hero .info button {
+.hero .introduction button {
   background-color: #3882F6;
   width: 120px;
   height: 35px;
@@ -92,3 +92,46 @@ nav {
 /* Hero: End */
 
 /* Header: End */
+
+/* Main: Start */
+
+/* Highlights: Start */
+main .highlights {
+  padding: 0 285px;
+}
+
+main .highlights .headline {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  text-align: center;
+}
+
+/* Cards: Start */
+main .highlights .cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* main .highlights .cards .card {
+  display: flex;
+  flex-direction: column;
+} */
+
+main .highlights .cards .card img {
+  border: 3px solid #3882F6;
+  border-radius: 15px;
+}
+
+main .highlights .cards .card p {
+  width: 160px;
+  text-align: center;
+}
+
+/* Cards: End */
+
+/* Highlights: End */
+
+
+/* Main: End */
