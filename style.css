@@ -191,3 +191,13 @@ section.call-to-action button {
 
 /* Call to Action: End */
 /* Main: End */
+
+/* Footer: Begin */
+footer {
+  background-color: #1F2937;
+  color: #ccd0d8;
+  text-align: center;
+  padding: 25px;
+}
+
+/* Footer: End */
