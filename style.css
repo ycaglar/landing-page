@@ -8,10 +8,10 @@ a {
   text-decoration: none;
 }
 
-* {
+/* * {
   border: 0.5px solid darkgrey;
   padding: 1px;
-}
+} */
 
 /* CSS Reset: End */
 
@@ -28,7 +28,7 @@ nav {
   gap: 20px;
 }
 
-.home {
+nav a.home {
   margin-right: auto;
   font-size: 24px;
   font-weight: bold;
@@ -53,26 +53,26 @@ nav a.call-to-action {
   margin: 120px 0;
 }
 
-.hero .introduction {
+.hero .information {
   display: flex;
   flex: 1;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-.hero .introduction .headline {
+.hero .information .headline {
   font-size: 48px;
   font-weight: bolder;
   color: #F9FAF8;
   margin: 0;
 }
 
-.hero .introduction .description {
+.hero .information .description {
   font-size: 18px;
   color: #b2b6bd;
 }
 
-.hero .introduction button {
+.hero .information button {
   background-color: #3882F6;
   width: 120px;
   height: 35px;
@@ -150,4 +150,44 @@ section.testimonials p.author {
 }
 
 /* Testimonials: End */
+
+/* Call to Action: Start */
+section.call-to-action {
+  background-color: #3882F6;
+  margin: 100px 190px;
+  padding: 45px 110px;
+  border-radius: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.call-to-action .information {
+  color: #F9FAF8;
+}
+
+section.call-to-action .information h5 {
+  margin: 0px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+section.call-to-action .information p {
+  margin: 0px;
+}
+
+section.call-to-action button {
+  background-color: #3882F6;
+  width: 120px;
+  height: 35px;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #F9FAF8;
+  border-radius: 8px;
+  border: 2px solid #F9FAF8;
+}
+
+/* Call to Action: End */
 /* Main: End */
