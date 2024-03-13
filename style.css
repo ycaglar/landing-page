@@ -8,10 +8,10 @@ a {
   text-decoration: none;
 }
 
-/* * {
+* {
   border: 0.5px solid darkgrey;
   padding: 1px;
-} */
+}
 
 /* CSS Reset: End */
 
@@ -35,11 +35,11 @@ nav {
   color: #F9FAF8;
 }
 
-.highlights,
-.testimonials,
-.call-to-action {
+nav a.highlights,
+nav a.testimonials,
+nav a.call-to-action {
   font-size: 18px;
-  color: #E5E7EB;
+  color: #b2b6bd;
 }
 
 /* Navigation: End */
@@ -69,7 +69,7 @@ nav {
 
 .hero .introduction .description {
   font-size: 18px;
-  color: #E5E7EB;
+  color: #b2b6bd;
 }
 
 .hero .introduction button {
@@ -114,11 +114,6 @@ main .highlights .cards {
   justify-content: space-between;
 }
 
-/* main .highlights .cards .card {
-  display: flex;
-  flex-direction: column;
-} */
-
 main .highlights .cards .card img {
   border: 3px solid #3882F6;
   border-radius: 15px;
@@ -127,11 +122,32 @@ main .highlights .cards .card img {
 main .highlights .cards .card p {
   width: 160px;
   text-align: center;
+  color: #7e868e;
 }
 
 /* Cards: End */
 
 /* Highlights: End */
 
+/* Testimonials: Start */
+section.testimonials {
+  background-color: #E5E7EB;
+  padding: 75px 300px;
+}
 
+section.testimonials p.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1F2937;
+}
+
+section.testimonials p.author {
+  color: #1F2937;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+}
+
+/* Testimonials: End */
 /* Main: End */
